@@ -16,8 +16,7 @@ h1 {
 }
 
 .container {
-  margin-right: -150px;
-  padding: 45px;
+  justify-content: center;
 }
 
 .btn {
