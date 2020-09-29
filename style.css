@@ -18,12 +18,6 @@ h1 {
   color: #7ac142;
 }
 
-p  {
-  animation: type 2s steps(14);
-  overflow: hidden;
-  white-space: nowrap;
-  background: white;
-
 @keyframes type {
   0% {
     width: 0ch;
@@ -32,6 +26,12 @@ p  {
     width: 14ch;
   }
 }
+
+.text  {
+  animation: type 2s steps(14);
+  overflow: hidden;
+  white-space: nowrap;
+  background: white;
 
 .container {
   justify-content: center;
