@@ -22,7 +22,7 @@ p  {
   animation: type 2s steps(14);
   overflow: hidden;
   white-space: nowrap;
-  color: white;
+  background: white;
 
 @keyframes type {
   0% {
